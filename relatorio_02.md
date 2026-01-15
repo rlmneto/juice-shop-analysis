@@ -69,6 +69,13 @@ Este relatório documenta a análise de segurança realizada na aplicação Juic
 
 ---
 
+### 2.4. Bonus Payload
+**Vulnerabilidade:** XSS
+
+**Método de Descoberta:**
+- Payload: <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+- Como a falha DOM XSS injetando o payload no campo search
+
 ## 3. Conclusões
 
 Durante a análise de segurança do Juice Shop, foram identificadas vulnerabilidades significativas, incluindo controle de acesso quebrado e endpoints administrativos expostos. As descobertas destacam a necessidade de melhorias urgentes na validação de entrada e nos controles de acesso.
@@ -81,5 +88,5 @@ Durante a análise de segurança do Juice Shop, foram identificadas vulnerabilid
 ---
 
 **Relatório Preparado por:** Analista de Segurança  
-**Data:** 14 de Janeiro de 2026  
+**Data:** 15 de Janeiro de 2026  
 **Status:** Análise Completa
